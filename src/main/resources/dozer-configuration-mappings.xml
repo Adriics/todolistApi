@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+      
+    <!-- Business to Integration --> 
+    
+    <mapping>
+    	<class-a>com.personal.todoList.business.model.User</class-a>
+    	<class-b>com.personal.todoList.integration.model.UserPL</class-b>
+    </mapping> 
+    
+    <mapping>
+    	<class-a>com.personal.todoList.business.model.Task</class-a>
+    	<class-b>com.personal.todoList.integration.model.TaskPL</class-b>
+    </mapping> 
+    
+ </mappings>
